@@ -1,0 +1,47 @@
+/* Universala regler */
+
+a {
+	color: #1de9b6;;
+}
+
+a:hover {
+	color: #a7ffeb;
+}
+
+/* Nav */
+
+.brand-logo {
+	margin-left: 20px;
+}
+
+/* Main */
+
+.portrait img {
+	width: 250px;
+}
+
+.col.s4 {
+	padding: 0;
+}
+
+.personal {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	-webkit-filter: brightness(50%); /* Chrome, Safari, Opera */
+    filter: brightness(50%);
+}
+
+.parallax-container {
+    height: 300px;
+}
+
+.parallax-container img {
+	width: 100%;
+}
+        
+/* Footer */
+
+footer img {
+	width: 25px;
+}
