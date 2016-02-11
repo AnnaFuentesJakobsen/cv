@@ -16,20 +16,19 @@ a:hover {
 
 /* Main */
 
+
 .portrait img {
 	width: 250px;
+	margin-top: 20px;
 }
 
 .col.s4 {
 	padding: 0;
 }
 
-.personal {
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	-webkit-filter: brightness(50%); /* Chrome, Safari, Opera */
-    filter: brightness(50%);
+.playa {
+	background: url(img/chili.jpg);
+	width: 200px;
 }
 
 .parallax-container {
