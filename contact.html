@@ -5,26 +5,26 @@
 
 	<title>Contact</title>
 
-	  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.css">
 
   <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css"></link>
 
-	<!-- Materialize -->
-	<link rel="stylesheet" href="materialize/css/materialize.min.css">
+  <!-- Materialize -->
+  <link rel="stylesheet" href="materialize/css/materialize.min.css">
 
-	<!-- Custom stylesheet -->
-	<link rel="stylesheet" href="css/style.css">
-
-	<!-- jQuery -->
+  <!-- jQuery -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 
-	<!-- JavaScript plugins -->
-	<script src="materialize/js/materialize.min.js"></script>
+  <!-- JavaScript plugins -->
+  <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
 
-	<!-- Materialize Icons -->
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Materialize Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
 
 	</head>
 <body>
@@ -43,23 +43,55 @@
     						<li><a href="funfacts.html">Fun Facts</a></li>
   						</ul>
 
-        	<li><a class='btn-flat disabled white-text' href="portfolio.html">I make stuff!</a></li>
-        	<li><a class='btn-flat disabled white-text'href="contact.html">Contact</a></li>
+        	<li><a class='btn-flat disabled white-text' href="portfolio.html">Portfolio</a></li>
+        	<li><a class='btn-flat disabled white-text'href="contact.html">Kontakt</a></li>
       	</ul>
     	</div>
   	</nav>
 	</header>
+
+  <main>
+  <div class="container" id="form">
+    <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Namn" id="first_name" type="text" class="validate">
+          <label for="first_name">Namn</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="E-post" id="last_name" type="text" class="validate">
+          <label for="last_name">E-post</label>
+        </div>
+      </div>
+    </form>
+  </div>
+    
+  <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Meddelande</label>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+        
+
+  </main>
 
 
 <footer class="page-footer #757575 grey darken-1">
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
-                <h5 class="white-text">Send me some love!</h5>
+                <h5 class="white-text">Kontakta mig!</h5>
                 <p class="grey-text text-lighten-4"><a href="#">annafjakobsen@gmail.com</a></p>
               </div>
               <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Follow me!</h5>
+                <h5 class="white-text">Följ mig på:</h5>
                 <ul>
                   <li><img src="img/icons/github.png"></li>
                   <li><img src="img/icons/linkedin.png"></li>

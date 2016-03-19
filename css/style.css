@@ -8,14 +8,26 @@ a:hover {
 	color: #a7ffeb;
 }
 
-/* Nav */
+/* NAVBAR */
 
 .brand-logo {
 	margin-left: 20px;
 }
 
-/* Main */
 
+/* HEADER */
+
+#cv {
+	text-transform: uppercase;
+}
+
+
+/* MAIN */
+
+
+#form {
+	margin-top: 30px;
+}
 
 .portrait img {
 	width: 250px;
